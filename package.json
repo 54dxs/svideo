@@ -1,0 +1,31 @@
+{
+  "name": "svideo",
+  "version": "0.0.1",
+  "description": "共享视频",
+  "author": "lijian",
+  "private": true,
+  "main": "app/main.js",
+  "dev": "electron . --debug",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "mas": "./app/script/mas.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/54dxs/svideo.git"
+  },
+  "keywords": [
+    "共享",
+    "视频",
+    "播发器",
+    "svideo",
+    "video"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^2.0.2",
+    "glob": "^7.1.2"
+  }
+}
